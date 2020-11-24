@@ -1,0 +1,21 @@
+{
+  "name": "pyramid",
+  "version": "1.0.0",
+  "description": "Eloquent JavaScript: Exercise one.",
+  "main": "main.js",
+  "scripts": {
+    "build": "browserify main.js > bundle.js",
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/skillitzimberg/eloquent-js/pyramid"
+  },
+  "author": "Scott Bergler",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1"
+  }
+}
