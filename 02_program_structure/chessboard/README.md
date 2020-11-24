@@ -19,7 +19,7 @@ When you have a program that generates this pattern, define a binding size = 8 a
 
 ### Here's how I thought about the problem:
 
-Each line is 8 characters long plus a CRNF (\n).  
+Each line is 8 characters long plus a CRLF (\n).  
 Each line is either even or odd (line 0, line 1, line 2, line 3, etc.).  
 If a line is even it begins with a space. Otherwise it begins with a #.
 
@@ -44,4 +44,4 @@ When row is odd & col is odd print space
 When row is odd & col is 9 print \n
 
 Which comes down to when row % 2 & column % 2 are equal print a space (" "), otherwise print an octothorpe ("#").
-Print a CRNF (\n) when finished with a row.
+Finish each row with a CRLF (\n).
