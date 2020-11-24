@@ -1,0 +1,16 @@
+{
+  "name": "chessboard",
+  "version": "1.0.0",
+  "description": "Chapter 2, Exercise 3",
+  "main": "main.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "author": "Scott Bergler",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "chai": "^4.2.0",
+    "moch": "0.0.1"
+  }
+}
