@@ -28,9 +28,8 @@ describe('newChessboard()', () => {
     expect(board).to.include('\n');
   });
 
-  it('returns a the expected pattern for the given board size', () => {
-    boardSize = 3;
-    board = newChessboard(boardSize);
+  it('returns the expected pattern for the given board size', () => {
+    board = newChessboard(3);
 
     expect(board).to.equal(' # \n# #\n # \n');
   });
